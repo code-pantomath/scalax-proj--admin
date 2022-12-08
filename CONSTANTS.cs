@@ -10,6 +10,6 @@ namespace Scalax_admin.CONSTANTS
     {
         private static readonly bool isDevEnv = false;
 
-        public static readonly string SERVER_ENDPOINT_URL = isDevEnv ? "http://127.0.0.1:5000" : "https://site--scalax-server-01--n5gfpf86nbvs.code.run";
+        public static readonly string SERVER_ENDPOINT_URL = isDevEnv ? "http://127.0.0.1:5000" : "<PROD_SERVER_URL>";
     }
 }
