@@ -8,7 +8,7 @@ namespace Scalax_admin.CONSTANTS
 {
     internal class CONSTANTS
     {
-        private static readonly bool isDevEnv = false;
+        private static readonly bool isDevEnv = true;
 
         public static readonly string SERVER_ENDPOINT_URL = isDevEnv ? "http://127.0.0.1:5000" : "<PROD_SERVER_URL>";
     }
